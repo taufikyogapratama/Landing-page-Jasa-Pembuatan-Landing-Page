@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title>
+      Jasa Pembuatan Landing Page Profesional untuk UMKM & Bisnis | Taufik Yoga
+      Pratama
+    </title>
+
+    <!-- Meta Description -->
+    <meta
+      name="description"
+      content="Jasa pembuatan landing page dan website bisnis untuk UMKM, bisnis lokal, startup, dan personal brand. Proses mudah, cukup request, landing page siap online."
+    />
+
+    <!-- Author -->
+    <meta name="author" content="Taufik Yoga Pratama" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+
+    <!-- Open Graph (URL DINAMIS) -->
+    <meta
+      property="og:title"
+      content="Jasa Pembuatan Landing Page Profesional untuk UMKM & Bisnis"
+    />
+    <meta
+      property="og:description"
+      content="Landing page profesional yang membantu bisnis mendapatkan lebih banyak pelanggan. Cukup request, kami kerjakan hingga siap online."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Jasa Pembuatan Landing Page Profesional"
+    />
+    <meta
+      name="twitter:description"
+      content="Solusi landing page untuk UMKM, bisnis lokal, startup, dan personal brand. Fokus konversi, tanpa ribet."
+    />
+    <meta name="twitter:image" content="/og-image.jpg" />
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Dynamic Canonical & OG URL -->
+    <script>
+      const origin = window.location.origin;
+
+      // Canonical
+      const canonical = document.createElement("link");
+      canonical.rel = "canonical";
+      canonical.href = origin + "/";
+      document.head.appendChild(canonical);
+
+      // Open Graph URL
+      const ogUrl = document.createElement("meta");
+      ogUrl.setAttribute("property", "og:url");
+      ogUrl.setAttribute("content", origin + "/");
+      document.head.appendChild(ogUrl);
+    </script>
+
+    <!-- SEO Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Jasa Pembuatan Landing Page",
+        "description": "Jasa pembuatan landing page dan website bisnis untuk UMKM, bisnis lokal, startup, dan personal brand.",
+        "provider": {
+          "@type": "Person",
+          "name": "Taufik Yoga Pratama",
+          "email": "mailto:taufikpratama326@gmail.com",
+          "telephone": "+6282131773877",
+          "areaServed": "Indonesia"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Indonesia"
+        }
+      }
+    </script>
+  </head>
+
+  <body class="scroll-smooth">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
